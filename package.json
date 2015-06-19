@@ -1,6 +1,6 @@
 {
   "name": "ansh",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ansh the Great and Wonderful",
   "main": "index.js",
   "bin": {
