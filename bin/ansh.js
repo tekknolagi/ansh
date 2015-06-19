@@ -1,4 +1,12 @@
 #!/usr/bin/env node
 
 var ansh = require('../index');
-console.log(ansh.ansh());
+var imaging = require('imaging');
+imaging.draw('ansh.png', function (resp, status) {
+    if (status == 'success') {
+	console.log(resp);
+    }
+    else {
+	console.log('Could not draw Ansh.');
+    }
+});
