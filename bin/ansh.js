@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 var ansh = require('../index');
-var imaging = require('imaging');
-imaging.draw('ansh.png', function (resp, status) {
-    if (status == 'success') {
-	console.log(resp);
-    }
-    else {
-	console.log('Could not draw Ansh.');
-    }
-});
+var date = new Date();
+var day = date.getDate(),
+    month = date.getMonth();
+if (day == 10 && month == 4) {
+    console.log("happy birthday ansh");
+}
+else {
+    console.log(ansh.ansh());
+}

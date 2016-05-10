@@ -1,6 +1,6 @@
 {
   "name": "ansh",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Ansh the Great and Wonderful",
   "main": "index.js",
   "bin": {
@@ -27,7 +27,5 @@
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
   },
-  "dependencies": {
-    "imaging": "^2.0.1"
-  }
+  "dependencies": {}
 }
